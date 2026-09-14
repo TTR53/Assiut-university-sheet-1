@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    cout<<fixed<<setprecision(9);
+double r;
+cin>>r;
+double p=3.141592653;
+double a= p*r*r;
+cout<<a<<endl;
+return 0;
+}
