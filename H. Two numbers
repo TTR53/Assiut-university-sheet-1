@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+double a,b,c,d,e;
+cin>>a>>b;
+c= floor (a/b);
+d= ceil(a/b);
+e= round (a/b);
+cout<<"floor "<<(long long)a<<" / "<<(long long)b<<" = "<<(long long)c<<endl;
+cout<<"ceil "<<(long long)a<<" / "<<(long long)b<<" = "<<(long long)d<<endl;
+cout<<"round "<<(long long)a<<" / "<<(long long)b<<" = "<<(long long)e<<endl;
+    return 0;
+}
